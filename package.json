@@ -1,0 +1,9 @@
+{
+  "name": "ceebase-botcreator",
+  "version": "1.0",
+  "author": "CEESBASE",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
+}
