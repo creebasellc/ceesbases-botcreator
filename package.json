@@ -1,9 +1,0 @@
-{
-  "name": "ceebase-botcreator",
-  "version": "1.1.0",
-  "author": "CEEBASE",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^14.11.0"
-  }
-}
