@@ -12,4 +12,6 @@ These are the supported versions
 | 1.3     | 💹  |
 
 ## Reporting a Vulnerability
-Please use issues to create a report
+- Phone: (877) 823-1297
+- Email: codezerocats213@outlook.com
+- Discord:https://discord.gg/xqE5hbkr
