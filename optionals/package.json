@@ -1,0 +1,21 @@
+{
+  "name": "ceebase-botcreator",
+  "version": "1.3",
+  "author": "CEESBASE",
+  "license": "Apache-2.0",
+  "scripts": {
+    "run": "nodemon ./system/login/init.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "discord.js": "^14.11.0",
+    "ejs": "~2.6.1",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2"
+  }
+}
