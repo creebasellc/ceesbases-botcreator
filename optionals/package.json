@@ -1,11 +1,22 @@
 {
-  "name": "ceebase-botcreator",
-  "version": "1.3",
+  "name": "@creebasellc/ceesbases-botcreator",
+  "version": "1.4.1",
+  "commands": [
+    {"name": "ping", "description": "replies with pong", "type": "fun"},
+    {"name": "boop", "description": "replies with ....", "type": "fun"},
+    {"name": "user", "description": "replies with userdata", "type": "info"},
+    {"name": "server", "description": "replies with userdata", "type": "info"}
+  ],
+  "main":"./system/login/bin/sdk/index.js",
   "author": "CEESBASE",
   "license": "Apache-2.0",
   "scripts": {
     "run": "nodemon ./system/login/init.js"
   },
+"publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+},
+"repository":"https://github.com/creebasellc/ceesbases-botcreator",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
