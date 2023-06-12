@@ -2,9 +2,11 @@
 _This is a bot creator for user to use_
 
 ## Getting Started
- - Go to cfx/bot/settings
- - Add yout bots token,id,secret
- - Add your a port for your dashboard
- - Go to your root directory
- - Click start.cmd
- - Go to the link thats in the console
+
+-  to start the bot do node src/main.file.js
+
+-  load localhost:3000
+
+ - click start bot
+ 
+ there will be a web version in the near future!
