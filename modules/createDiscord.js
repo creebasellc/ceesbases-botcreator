@@ -1,4 +1,4 @@
- module.exports = {
+module.exports = {
     projectspace: class {
         constructor (projectpath,projecttype, service){
             const fs = require('fs');

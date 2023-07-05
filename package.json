@@ -1,12 +1,34 @@
 {
-  "name": "ceesbase-botcreator",
-  "version": "1.0.0",
-  "description": "",
-  "main": "service.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "ceebase-webinterface",
+  "version": "1.1",
+  "author": "CEESBASE",
+  "license": "GNU General Public License v3.0",
+  "license_perms":{
+    "commercial_use": true,
+    "modification": true,
+    "distribution": true,
+    "patent_use": true,
+    "private_use": true
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license_limits": {
+    "liability": false,
+    "warranty": false
+  },
+  "license_location": "./LICENSE",
+  "scripts": {
+    "run": "nodemon ./system/login/init.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "creessdk": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.6"
+  }
 }
